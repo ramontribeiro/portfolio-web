@@ -67,6 +67,9 @@ footer {
 }
 
 @media (max-width: 800px) {
+    .contato{
+        padding: 60px 20px ;
+    }
     .contato-titulo{
         margin-top: 50px;
         margin-bottom: 20px;
@@ -76,8 +79,7 @@ footer {
         align-items: center;
         justify-items: center;
         grid-template-columns: 0.5fr 0.5fr;
-        /* grid-auto-columns: 100px; */
-        gap: 20px;
+        gap: 35px;
     }
 
     .icon-box img {
