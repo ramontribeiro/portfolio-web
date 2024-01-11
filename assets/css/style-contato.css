@@ -59,6 +59,13 @@
     width: max-content;
 }
 
+footer {
+    color: darkgrey;
+    /* border-top: 1px solid darkgray; */
+    position: absolute;
+    bottom: 10px;
+}
+
 @media (max-width: 800px) {
     .contato-titulo{
         margin-top: 50px;
@@ -72,7 +79,7 @@
         /* grid-auto-columns: 100px; */
         gap: 20px;
     }
-    
+
     .icon-box img {
         width: 20px;
         height: 20px;
@@ -86,11 +93,4 @@
     .contato-info{
         font-size: 12px;
     }
-}
-
-footer {
-    color: darkgrey;
-    /* border-top: 1px solid darkgray; */
-    position: absolute;
-    bottom: 10px;
 }
