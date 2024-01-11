@@ -30,7 +30,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px;
+    gap: 18px;
 }
 
 .skill-item {
@@ -52,11 +52,17 @@
 }
 
 @media (max-width: 800px) {
+    .habilidades {
+        padding: 60px 20px ;
+    }
     .skill-titulo{
         margin-bottom: 20px;
     }
+    .skill-lista {
+        gap: 10px;
+    }
     .skill-item {
-        width: 117px;
+        width: 103px;
     }
     .skill-item-title{
         font-size: 14px;
