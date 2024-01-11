@@ -67,13 +67,6 @@ footer {
 }
 
 @media (max-width: 800px) {
-    .contato{
-        padding: 60px 20px ;
-    }
-    .contato-titulo{
-        margin-top: 50px;
-        margin-bottom: 20px;
-    }
     .contato-lista{
         display: grid;
         align-items: center;
@@ -81,6 +74,23 @@ footer {
         grid-template-columns: 0.5fr 0.5fr;
         gap: 35px;
     }
+}
+
+@media (max-width: 600px) {
+    .contato{
+        padding: 60px 20px ;
+    }
+    .contato-titulo{
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    /* .contato-lista{
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: 0.5fr 0.5fr;
+        gap: 35px;
+    } */
 
     .icon-box img {
         width: 20px;

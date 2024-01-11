@@ -114,7 +114,7 @@
 
 .project-list {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(3, 1fr); 
   gap: 30px;
   margin-bottom: 10px;
 }
@@ -184,6 +184,16 @@
 }
 
 
-@media (min-width: 800px) {
-    .project-list { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 800px) {
+  .project-list { 
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+@media (max-width: 600px) {
+  .projetos {
+    padding: 60px 20px ;
+  }
+  .project-list { 
+    grid-template-columns: 1fr;
+  }
 }

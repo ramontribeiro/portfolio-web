@@ -9,7 +9,7 @@
  .home-image{
     position: absolute;
     top:25%;
-    left:7%;
+    left:70px;
  }
  .home-image img {
     width: 30rem;
@@ -26,7 +26,7 @@
       align-items: center;
   }
   .home-image {
-      position: unset;
+    left:20px;
   }
   .home-image img {
       width: 20rem;
