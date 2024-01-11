@@ -1,0 +1,67 @@
+.habilidades {
+    display:flex;
+    flex-direction: column;
+    padding: 60px 70px ;
+    background: var(--background);
+    min-height: 100vh;
+}
+
+.skill-titulo{
+    margin-top: 20px;
+    margin-bottom: 35px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 30px;
+    position: relative;
+}
+
+.skill-titulo::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    height: 5px;
+    background: linear-gradient( to right, hsl(45, 100%, 72%), hsl(35, 100%, 68%) );;
+    border-radius: 3px;
+}
+
+.skill-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.skill-item {
+    background: linear-gradient( to bottom right, hsl(0, 0%, 25%) 0%, hsla(0, 0%, 25%, 0) 50% );
+    border-radius: 14px;
+    box-shadow: 0 16px 30px hsla(0, 0%, 0%, 0.125);
+    padding: 20px;
+    width: 135px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.skill-item-title {
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+@media (max-width: 800px) {
+    .skill-titulo{
+        margin-bottom: 20px;
+    }
+    .skill-item {
+        width: 117px;
+    }
+    .skill-item-title{
+        font-size: 14px;
+    }
+    .skill-icon-box img{
+        width: 20px;
+    }
+}

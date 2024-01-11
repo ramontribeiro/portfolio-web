@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ramon Ribeiro</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo/logo.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style-navbar.css" />
+    <link rel="stylesheet" href="./assets/css/style-sobre.css" />
+    <link rel="stylesheet" href="./assets/css/style-habilidade.css" />
+    <link rel="stylesheet" href="./assets/css/style-projetos.css" />
+    <link rel="stylesheet" href="./assets/css/style-contato.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--================Header Menu Area =================-->
+    <header class="header_area">
+      <div class="background">
+        <div class="menu__wrapper">
+          <div class="menu__bar">
+            <a href="#" title="Logo" class="logo">
+              <img
+                style="width: 100%; height: 30px"
+                src="assets/images/logo/iconizer-rr2.svg"
+              />
+            </a>
+            <img
+              class="menu-icon"
+              src="assets/images/navbar/burger-menu.svg"
+              title="Burger Menu"
+              alt="Burger Menu"
+              onclick="toggleMenu(this)"
+            />
+            <ul class="navigation">
+              <li>
+                <a href="#home" title="Home">HOME</a>
+              </li>
+              <li>
+                <a href="#sobre" title="Sobre">SOBRE</a>
+              </li>
+              <li>
+                <a href="#habilidades" title="Habilidades">HABILIDADES</a>
+              </li>
+              <li>
+                <a href="#projetos" title="Projetos">PROJETOS</a>
+              </li>
+              <li>
+                <a href="#contato" title="Contato">CONTATO</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="principal" id="home">
+      <div class="meunome">
+        <img src="assets/images/logo/ramON_2.svg" />
+        <h3>Desenvolvedor Web</h3>
+      </div>
+    </div>
+
+    <div class="sobremim" id="sobre">
+      <div>
+        <h2>Hello World! <br /></h2>
+        <p>
+          Sou um profissional de TI com experiência em programação, atuando como
+          desenvolvedor Front End. <br />
+          Possuo bons conhecimentos JavaScript, TypeScript, Angular, RxJs, Node
+          e me aprimorando em React e Gerenciamento de Estado (Redux).
+          <br /><br />
+          Altamente analítico, motivado e habilidoso no desenvolvimento de
+          soluções e na resolução de problemas de programação com foco em
+          resultados. Trabalho bem de forma independente e em equipe.
+        </p>
+      </div>
+    </div>
+
+    <div class="habilidades" id="habilidades">
+      <h3 class="skill-titulo">HABILIDADES</h3>
+
+      <div class="skill-lista">
+        <div class="skill-item">
+          <div class="skill-icon-box">
+            <img
+              src="./assets/images/skill/icon-html5.svg"
+              alt="design icon"
+              width="40"
+            />
+          </div>
+
+          <div class="skill-content-box">
+            <h4 class="skill-item-title">HTML5</h4>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-icon-box">
+            <img
+              src="./assets/images/skill/icon-css.svg"
+              alt="design icon"
+              width="40"
+            />
+          </div>
+
+          <div class="skill-content-box">
+            <h4 class="skill-item-title">CSS3</h4>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-icon-box">
+            <img
+              src="./assets/images/skill/icon-javascript.svg"
+              alt="design icon"
+              width="40"
+            />
+          </div>
+
+          <div class="skill-content-box">
+            <h4 class="skill-item-title">Javascript</h4>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-icon-box">
+            <img
+              src="./assets/images/skill/icon-typescript.svg"
+              alt="design icon"
+              width="40"
+            />
+          </div>
+
+          <div class="skill-content-box">
+            <h4 class="skill-item-title">Typescript</h4>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-icon-box">
+            <img
+              src="./assets/images/skill/icon-sass.svg"
+              alt="design icon"
+              width="40"
+            />
+          </div>
+
+          <div class="skill-content-box">
+            <h4 class="skill-item-title">Sass</h4>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-icon-box">
+            <img
+              src="./assets/images/skill/icon-tw.svg"
+              alt="design icon"
+              width="40"
+            />
+          </div>
+
+          <div class="skill-content-box">
+            <h4 class="skill-item-title">Tailwind</h4>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-icon-box">
+            <img
+              src="./assets/images/skill/icon-boostrap.svg"
+              alt="design icon"
+              width="40"
+            />
+          </div>
+
+          <div class="skill-content-box">
+            <h4 class="skill-item-title">Bootstrap</h4>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-icon-box">
+            <img
+              src="./assets/images/skill/icon-angular-material.svg"
+              alt="design icon"
+              width="40"
+            />
+          </div>
+
+          <div class="skill-content-box">
+            <h4 class="skill-item-title">Material</h4>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-icon-box">
+            <img
+              src="./assets/images/skill/icon-angular.svg"
+              alt="design icon"
+              width="40"
+            />
+          </div>
+
+          <div class="skill-content-box">
+            <h4 class="skill-item-title">Angular</h4>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-icon-box">
+            <img
+              src="./assets/images/skill/icon-rxjs.svg"
+              alt="design icon"
+              width="40"
+            />
+          </div>
+
+          <div class="skill-content-box">
+            <h4 class="skill-item-title">RxJS</h4>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-icon-box">
+            <img
+              src="./assets/images/skill/icon-ngrx.svg"
+              alt="design icon"
+              width="40"
+            />
+          </div>
+
+          <div class="skill-content-box">
+            <h4 class="skill-item-title">NgRx</h4>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-icon-box">
+            <img
+              src="./assets/images/skill/icon-code-square.svg"
+              alt="design icon"
+              width="40"
+            />
+          </div>
+
+          <div class="skill-content-box">
+            <h4 class="skill-item-title">POO</h4>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-icon-box">
+            <img
+              src="./assets/images/skill/icon-code-square.svg"
+              alt="design icon"
+              width="40"
+            />
+          </div>
+
+          <div class="skill-content-box">
+            <h4 class="skill-item-title">SOdivD</h4>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-icon-box">
+            <img
+              src="./assets/images/skill/icon-vs-code.svg"
+              alt="design icon"
+              width="40"
+            />
+          </div>
+
+          <div class="skill-content-box">
+            <h4 class="skill-item-title">VS Code</h4>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-icon-box">
+            <img
+              src="./assets/images/skill/icon-eslint.svg"
+              alt="design icon"
+              width="40"
+            />
+          </div>
+
+          <div class="skill-content-box">
+            <h4 class="skill-item-title">ESLint</h4>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-icon-box">
+            <img
+              src="./assets/images/skill/icon-git.svg"
+              alt="design icon"
+              width="40"
+            />
+          </div>
+
+          <div class="skill-content-box">
+            <h4 class="skill-item-title">Git</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="projetos" id="projetos">
+      <h3 class="projeto-titulo">PROJETOS</h3>
+
+      <section class="projects">
+        <ul class="filter-list">
+          <li class="filter-item">
+            <button class="active" data-filter-btn="">Todos</button>
+          </li>
+
+          <li class="filter-item">
+            <button data-filter-btn="">JavaScript</button>
+          </li>
+
+          <li class="filter-item">
+            <button data-filter-btn="">Angular</button>
+          </li>
+
+          <li class="filter-item">
+            <button data-filter-btn="">Outros</button>
+          </li>
+        </ul>
+
+        <div class="filter-select-box">
+          <button class="filter-select" data-select="">
+            <div class="select-value" data-selecct-value="">
+              Select category
+            </div>
+
+            <div class="select-icon">
+              <ion-icon
+                name="chevron-down"
+                role="img"
+                class="md hydrated"
+                aria-label="chevron down"
+              ></ion-icon>
+            </div>
+          </button>
+
+          <ul class="select-list">
+            <li class="select-item">
+              <button data-select-item="">Todos</button>
+            </li>
+
+            <li class="select-item">
+              <button data-select-item="">JavaScript</button>
+            </li>
+
+            <li class="select-item">
+              <button data-select-item="">Angular</button>
+            </li>
+
+            <li class="select-item">
+              <button data-select-item="">Outros</button>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="project-list">
+          <li
+            class="project-item active"
+            data-filter-item=""
+            data-category="angular"
+          >
+            <a href="https://app-project-pokedex.netlify.app/" target="_blank">
+              <figure class="project-img">
+                <img
+                  src="./assets/images/projects/pokedex.jpg"
+                  alt="orizon"
+                  loading="lazy"
+                />
+              </figure>
+
+              <h3 class="project-title">PokéDex App</h3>
+
+              <p class="project-category">Angular - Tailwind</p>
+            </a>
+          </li>
+
+          <li
+            class="project-item active"
+            data-filter-item=""
+            data-category="javascript"
+          >
+            <a href="https://ramontribeiro.github.io/Midi/" target="_blank">
+              <figure class="project-img">
+                <img
+                  src="./assets/images/projects/midi.jpg"
+                  alt="finance"
+                  loading="lazy"
+                />
+              </figure>
+
+              <h3 class="project-title">Midi</h3>
+
+              <p class="project-category">Javascript</p>
+            </a>
+          </li>
+
+          <li
+            class="project-item active"
+            data-filter-item=""
+            data-category="outros"
+          >
+            <a
+              href="https://ramontribeiro.github.io/acessibilidade-web-01/"
+              target="_blank"
+            >
+              <figure class="project-img">
+                <img
+                  src="./assets/images/projects/apeperia-acessibilidade.jpg"
+                  alt="orizon"
+                  loading="lazy"
+                />
+              </figure>
+
+              <h3 class="project-title">Apeperia Web - Acessibilidade</h3>
+
+              <p class="project-category">HTML - CSS</p>
+            </a>
+          </li>
+
+          <li
+            class="project-item active"
+            data-filter-item=""
+            data-category="outros"
+          >
+            <a href="https://ramontribeiro.github.io/Telefone/" target="_blank">
+              <figure class="project-img">
+                <img
+                  src="./assets/images/projects/fone.jpg"
+                  alt="orizon"
+                  loading="lazy"
+                />
+              </figure>
+
+              <h3 class="project-title">Fone Web</h3>
+
+              <p class="project-category">HTML - CSS</p>
+            </a>
+          </li>
+
+          <li
+            class="project-item active"
+            data-filter-item=""
+            data-category="outros"
+          >
+            <a href="ramontribeiro.github.io/pagina-recados/" target="_blank">
+              <figure class="project-img">
+                <img
+                  src="./assets/images/projects/recados-montagem.png"
+                  alt="orizon"
+                  loading="lazy"
+                />
+              </figure>
+
+              <h3 class="project-title">Recados Web</h3>
+
+              <p class="project-category">HTML - CSS</p>
+            </a>
+          </li>
+
+          <li
+            class="project-item active"
+            data-filter-item=""
+            data-category="outros"
+          >
+            <a
+              href="https://ramontribeiro.github.io/projeto_barbearia/"
+              target="_blank"
+            >
+              <figure class="project-img">
+                <img
+                  src="./assets/images/projects/barber-shop.jpg"
+                  alt="orizon"
+                  loading="lazy"
+                />
+              </figure>
+
+              <h3 class="project-title">Barber Shop Web</h3>
+
+              <p class="project-category">HTML - CSS</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="contato" id="contato">
+      <h3 class="contato-titulo">CONTATOS</h3>
+
+      <div class="contato-lista">
+        <div class="contato-item">
+          <div class="icon-box">
+            <img
+              src="./assets/images/contact/location-pin-svgrepo-com.svg"
+              alt=""
+            />
+          </div>
+          <h2>Localização</h2>
+          <div class="contato-info">Novo Hamburgo<br />RS - Brasil</div>
+        </div>
+
+        <div class="contato-item">
+          <a href="mailto:ramonrib@gmail.com" class="icon-box">
+            <img src="./assets/images/contact/email-svgrepo-com.svg" alt="" />
+          </a>
+          <h2>Email</h2>
+          <div class="contato-info">ramonrib@gmail.com</div>
+        </div>
+
+        <div class="contato-item">
+          <a
+            href="https://www.linkedin.com/in/ramonrib/"
+            target="_blank"
+            class="icon-box"
+          >
+            <img src="./assets/images/contact/linkedin-icon-2.svg" alt="" />
+          </a>
+          <h2>LinkedIn</h2>
+          <div class="contato-info">/ramonrib</div>
+        </div>
+
+        <div class="contato-item">
+          <a
+            href="https://github.com/ramontribeiro"
+            target="_blank"
+            class="icon-box"
+          >
+            <img src="./assets/images/contact/icon-github.svg" alt="" />
+          </a>
+          <h2>GitHub</h2>
+          <div class="contato-info">/ramontribeiro</div>
+        </div>
+      </div>
+
+      <footer>
+        <p>Copyright © 2024 Ramon Ribeiro</p>
+      </footer>
+    </div>
+
+    <script src="assets/js/script-navbar.js"></script>
+    <script src="assets/js/script-projects.js"></script>
+  </body>
+</html>
